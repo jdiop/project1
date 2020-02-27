@@ -5,17 +5,24 @@ html {
   background-blend-mode: darken;
 }
 
+h1 {
+
+}
+
+h2 {
+
+}
 body {
   text-align: center;
   align-content: center;
   padding: 10px;
   color: white;
-  height: 100%;
 }
 
 label {
   display: block;
 	text-align: center;
+  font-size: 22px;
 }
 
 input {
@@ -29,9 +36,10 @@ input {
 #formcontainer {
 	text-align: center;
 	margin: 0 auto;
+  padding: 10px;
   background-color:rgba(0, 0, 0, 0.6);
   width: 40%;
-  height: 90vh;
+  height: 92vh;
 }
 
 #submit {
@@ -43,4 +51,15 @@ input {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 800px) {
+  #formcontainer {
+  	text-align: center;
+  	margin: 0 auto;
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.6);
+    width: 60%;
+    height: 92vh;
+  }
 }
