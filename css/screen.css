@@ -5,6 +5,9 @@ html {
   background-blend-mode: darken;
 }
 
+h2 {
+  font-size: 18px;
+}
 body {
   text-align: center;
   align-content: center;
@@ -61,5 +64,9 @@ input {
     padding: 20px;
     width: 60%;
     height: 90vh;
+  }
+
+  h2 {
+    font-size: 14px;
   }
 }
