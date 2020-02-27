@@ -13,11 +13,11 @@ var containsProfanity = function(text){
     return returnVal;
 }
 
-var myText = $('#text').html();
+var myText = $('#IGN').html();
 
 if(containsProfanity(myText)){
-    $('#result').html('That username contains profanity. Please try another username.');
+    alert('That username contains profanity. Please try another username.');
 }
 else{
-    $('#result').html('Form submitted.');
+    alert('Form submitted.');
 }
