@@ -5,13 +5,6 @@ html {
   background-blend-mode: darken;
 }
 
-h1 {
-
-}
-
-h2 {
-
-}
 body {
   text-align: center;
   align-content: center;
@@ -23,13 +16,16 @@ label {
   display: block;
 	text-align: center;
   font-size: 22px;
+  padding: 10px;
 }
 
 input {
   display: inline-block;
-  border-radius: 10px;
+  border-radius: 8px;
   box-sizing: border-box;
   align-content: center;
+  width: 50%;
+  padding: 5px;
 
 }
 
@@ -43,23 +39,24 @@ input {
 }
 
 #submit {
-  display:inline-block;
-  background-color: #FFB323;
+  display: block;
+  text-align: center;
+  background-color: gray;
+  font-family: 'Josefin Sans';
   color: white;
   padding: 10px ;
-  margin-left: 5px;
+  margin: 0 auto;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
   #formcontainer {
   	text-align: center;
   	margin: 0 auto;
-    padding: 10px;
-    background-color:rgba(0, 0, 0, 0.6);
+    padding: 20px;
     width: 60%;
-    height: 92vh;
+    height: 90vh;
   }
 }
