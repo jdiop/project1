@@ -39,13 +39,16 @@ input {
   background-color:rgba(0, 0, 0, 0.6);
   width: 40%;
   height: 92vh;
+  outline: #AA1F00 solid 1px;
+  box-shadow: 5px 5px #AA1F00;
 }
 
 #submit {
   display: block;
   text-align: center;
   font-family: 'Josefin Sans';
-  background-color: gray;
+  background-color: #AA1F00;
+  border: none;
   color: white;
   padding: 10px ;
   margin: 0 auto;
