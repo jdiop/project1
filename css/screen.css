@@ -1,10 +1,46 @@
 html {
   text-align: center;
-  font-family: 'Josefin Sans', ;
+  font-family: 'Josefin Sans';
   background:url("../images/mmo.jpg") no-repeat center center fixed;
+  background-blend-mode: darken;
 }
 
 body {
   text-align: center;
   align-content: center;
+  padding: 10px;
+  color: white;
+  height: 100%;
+}
+
+label {
+  display: block;
+	text-align: center;
+}
+
+input {
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  align-content: center;
+
+}
+
+#formcontainer {
+	text-align: center;
+	margin: 0 auto;
+  background-color:rgba(0, 0, 0, 0.6);
+  width: 40%;
+  height: 90vh;
+}
+
+#submit {
+  display:inline-block;
+  background-color: #FFB323;
+  color: white;
+  padding: 10px ;
+  margin-left: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
