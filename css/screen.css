@@ -1,7 +1,7 @@
 html {
   text-align: center;
   font-family: 'Josefin Sans', ;
-  background:url("../images/mmo.jpg")
+  background:url("../images/mmo.jpg") no-repeat center center fixed;
 }
 
 body {
